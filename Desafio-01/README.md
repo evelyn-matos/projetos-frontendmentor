@@ -4,4 +4,4 @@
 
 ## Olaaa! 👋
 
-Aqui está o desafio do QR-Code Concluído!!!
+Aqui está o desafio do QR-Code Concluído!!
