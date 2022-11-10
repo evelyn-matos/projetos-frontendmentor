@@ -25,4 +25,4 @@ Ideal para quem está começando os estudos poder praticar e fixar seus conhecim
 
 O desafio é construir um Card NFT como na imagem abaixo: 
 
-<img src="https://media.discordapp.net/attachments/1033494131995054112/1040413690069000272/Imagem_projeto_card_nft.JPG?width=670&height=390"
+<img src="https://media.discordapp.net/attachments/1033494131995054112/1040413690069000272/Imagem_projeto_card_nft.JPG?width=670&height=390">
