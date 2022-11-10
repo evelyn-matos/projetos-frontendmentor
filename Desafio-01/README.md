@@ -1,6 +1,6 @@
 # Frontend Mentor - Card QR Code 
 
-## Olaaa! 👋
+Olaaa! 👋
 
 Aqui está o desafio do QR-Code Concluído!!
 
