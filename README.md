@@ -16,3 +16,11 @@ O desafio é construir um Card QR-Code como na imagem abaixo:
 <img src="https://media.discordapp.net/attachments/1033494131995054112/1033815963751174175/desktop-design.jpg?width=852&height=473">
 
 
+# Desafio 02 - Card NFT
+
+Esse desafio necessita apenas  de um conhecimento básico em HTML e CSS para ser resolvido. </br>
+Ideal para quem está começando os estudos poder praticar e fixar seus conhecimentos! </br>
+
+[Acessar o Desafio 01](https://evelyn-matos.github.io/projetos-frontendmentor/Desafio-02/)
+
+O desafio é construir um Card NFT como na imagem abaixo: 
