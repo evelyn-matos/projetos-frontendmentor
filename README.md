@@ -5,8 +5,8 @@ Aqui estão meus projetos concluídos relacionados aos desafios que estão no si
 
 # Desafio 01 - Card QR-Code
 
-Esse desafio necessita apenas  de um conhecimento básico em HTML e CSS para ser resolvido. </br>
-Ideal para quem está começando os estudos poder praticar e fixar seus conhecimentos! </br>
+Esse desafio necessita apenas  de um conhecimento básico em HTML e CSS para ser resolvido. <br/>
+Ideal para quem está começando os estudos poder praticar e fixar seus conhecimentos! <br/>
 
 [Acessar o Desafio 01](https://evelyn-matos.github.io/projetos-frontendmentor/Desafio-01/)
 
@@ -18,8 +18,8 @@ O desafio é construir um Card QR-Code como na imagem abaixo:
 
 # Desafio 02 - Card NFT
 
-Esse desafio necessita apenas  de um conhecimento básico em HTML e CSS para ser resolvido. </br>
-Ideal para quem está começando os estudos poder praticar e fixar seus conhecimentos! </br>
+Esse desafio necessita apenas  de um conhecimento básico em HTML e CSS para ser resolvido. <br/>
+Ideal para quem está começando os estudos poder praticar e fixar seus conhecimentos! <br/>
 
 [Acessar o Desafio 02](https://evelyn-matos.github.io/projetos-frontendmentor/Desafio-02/)
 
