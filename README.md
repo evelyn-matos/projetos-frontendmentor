@@ -33,4 +33,8 @@ Esse desafio é ideal para melhorar seu conhecimento de responsividade.
 
 [Acessar Desafio 03](https://evelyn-matos.github.io/projetos-frontendmentor/Desafio-03/)
 
+O desafio é construir um Card Product Preview como na imagem abaixo
+
+<img src="https://media.discordapp.net/attachments/1033494131995054112/1041048715571499028/2022-11-12.png?width=676&height=473">
+
 O desafio é construir um Card Product Preview responsivo
