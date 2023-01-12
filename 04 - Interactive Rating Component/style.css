@@ -1,0 +1,181 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --LightGrey: hsl(217, 12%, 63%);
+    --MediumGrey: hsl(213, 20%, 22%);
+    --DarkBlue: hsl(213, 19%, 18%);
+    --VeryDarkBlue: hsl(216, 12%, 8%);
+    --Orange: hsl(25, 97%, 53%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Overpass", sans-serif;
+    font-size: 15px;
+    background-color: var(--VeryDarkBlue);
+    margin: 1.5rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+ul {
+    list-style-type: none;
+}
+
+button {
+    font-family: inherit;
+}
+
+p {
+    line-height: 1.8rem;
+}
+
+
+.container, .thank-you {
+    background-color: var(--DarkBlue);
+    padding: 1.5rem;
+    border-radius: 0.625rem;
+
+    max-width: 400px;
+    
+}
+
+/* Conatiner 1*/
+
+.container img {
+    background-color: var(--MediumGrey);
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+
+.container h1 {
+    color: var(--White);
+    margin: 2rem 0 1rem;
+}
+
+.container p {
+    color: var(--LightGrey);
+    margin-bottom: 1rem;
+    
+}
+
+.container ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.container ul li button {
+    width: 3rem;
+    height: 3rem;
+    padding-top: 0.2rem;
+
+    color: var(--LightGrey);
+    background-color: var(--MediumGrey);
+    border-radius: 50%;
+    border: none;
+
+    cursor: pointer;
+    transition: 0.3s;
+    
+}
+
+.container ul li button:hover {
+    background-color: var(--Orange);
+    color: var(--White);
+}
+
+.container ul li button.active {
+    background-color: var(--LightGrey);
+    color: var(--White);
+}
+
+.btn-submit {
+    width: 100%;
+    padding: 0.8rem 0 0.6rem;
+    background-color: var(--Orange);
+
+    font-size: 1rem;
+    color: var(--White);
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    
+    border: none;
+    border-radius: 30px;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-submit:hover {
+    background-color: var(--White);
+    color: var(--Orange);
+}
+
+
+/* Conatiner 2*/
+
+.thank-you {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.thank-you img {
+    display: block;
+    margin: 0 auto 2rem;
+
+}
+
+.thank-you p.gray {
+    background-color: var(--MediumGrey);
+    font-size: 0.9rem;
+    color: var(--Orange);
+
+    padding: 0.2rem 0.5rem 0;
+    border-radius: 30px;
+ 
+    margin-bottom: 2rem;
+}
+
+.thank-you h2 {
+    color: var(--White);
+    margin-bottom: 1rem;
+
+}
+
+.thank-you p {
+    color: var(--LightGrey);
+    margin-bottom: 2rem;
+}
+
+.hidden {
+    display: none;
+}
+
+.attribution { 
+    font-size: 14px; 
+    text-align: center; 
+    color: var(--White);
+    margin-top: 2rem;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
