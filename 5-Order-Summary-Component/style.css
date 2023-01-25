@@ -1,0 +1,325 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root {
+
+    --PaleBlue: hsl(225, 100%, 94%);
+    --BrightBlue: hsl(245, 75%, 52%);
+    --VeryPaleBlue: hsl(225, 100%, 98%);
+    --DesaturatedBlue: hsl(224, 23%, 55%);
+    --DarkBlue: hsl(223, 47%, 23%);
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+
+    height: 100vh;
+
+    background-image: url('/images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: 0px -50px;
+    background-color: var(--PaleBlue);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    
+    max-width: 360px;
+    height: 550px;
+    margin-bottom: 20px;
+
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 5px 40px var(--DesaturatedBlue);
+}
+
+.container .image-area {
+    width: 100%;
+
+}
+
+.container .image-area img {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+
+}
+
+.info-area {
+    padding: 30px 40px 30px 40px;
+}
+
+
+.info-area .title-desc h1 {
+    font-size: 22px;
+    font-weight: 900;
+    color: var(--DarkBlue);
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.info-area .title-desc p {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+    color: var(--DesaturatedBlue);
+    line-height: 22px;
+    padding: 0px;
+    margin-bottom: 15px;
+
+}
+
+.info-area .plan-value {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    
+    background-color: var(--VeryPaleBlue); 
+    border-radius: 5px;
+
+}
+
+
+
+.info-area .plan-value .value {
+   margin-right: 25px;
+}
+
+
+.info-area .plan-value .value img {
+    margin-left: 15px;
+}
+
+.info-area .plan-value .value h3 {
+    font-size: 16px;
+    font-weight: 900;
+    color: var(--DarkBlue);
+    letter-spacing: -1px;
+    margin-bottom: 5px;
+    
+}
+
+.info-area .plan-value .value p {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--DesaturatedBlue);
+
+    
+}
+
+.info-area .plan-value span {
+    margin-right: 10px;
+}
+
+.info-area .plan-value span a {
+    font-size: 12px;
+    font-weight: 900;
+    color: var(--BrightBlue);
+}
+
+.info-area .plan-value a:hover {
+    opacity: 0.7;
+    transition: 1s;
+    text-decoration: none;
+
+}
+
+.info-area .button-payment-cancel {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-area .button-payment-cancel .payment {
+    
+    height: 45px;
+    margin-top: 20px;
+    background-color: var(--BrightBlue);
+    color: var(--PaleBlue);
+    font-weight: 900;
+    font-size: 15px;
+    text-align: center;
+
+    
+    border-color: var(--BrightBlue);
+    border-radius: 10px;
+    box-shadow: 0px 15px 10px var(--PaleBlue);
+}
+
+.info-area .button-payment-cancel .payment:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    transition: 1s;
+}
+
+.info-area .button-payment-cancel .cancel {
+    font-size: 15px;
+    margin-top: 20px;
+    border: none;
+
+    color: var(--DesaturatedBlue);
+    font-weight: 900;
+    background-color: #fff;
+}
+
+.info-area .button-payment-cancel .cancel:hover {
+    cursor: pointer;
+    color: var(--DarkBlue);
+    transition: 1s;
+}
+
+
+@media screen and (min-width: 360px) and (max-width:500px ) {
+
+    body{
+
+        background-image: url('/images/pattern-background-mobile.svg');
+    
+    }
+
+    .container {
+    
+        width: 310px;
+       
+    }
+
+    .info-area {
+        padding: 30px 20px 30px 20px;
+    }
+
+    .info-area .title-desc h1 {
+        font-size: 18px
+    }
+
+    .info-area .title-desc {
+        padding: 0px 10px;
+    }
+    .info-area .title-desc p {
+        font-size: 14px;
+        padding:  0 10px;
+    }
+    
+    .info-area .plan-value {
+        margin: 20px 0 20px 0;
+    }
+
+    .info-area .plan-value img {
+    
+        margin-left: 5px;
+    }
+
+    .info-area .plan-value .value {
+
+        margin-left: 10px;
+        margin-right: 25px;
+       
+    }
+
+    .info-area .plan-value span {
+        margin-right: 15px;
+    }
+
+    .info-area .button-payment-cancel .payment {
+
+        margin: 10px 0 0 0;
+        height: 50px;
+        font-size: 15px;
+    }
+
+    .info-area .button-payment-cancel .cancel {
+
+        margin-top: 25px;
+        font-size: 14px;
+    }
+
+     
+}
+
+@media screen and (min-width: 280px) and (max-width:359px ) {
+
+    .container {
+    
+        width: 250px;
+        height: 450px;
+       
+    }
+
+    .info-area {
+        padding: 15px 10px 15px 10px;
+    }
+
+    .info-area .title-desc h1 {
+        font-size: 15px
+    }
+
+    .info-area .title-desc {
+        padding: 0px 5px;
+    }
+    .info-area .title-desc p {
+        font-size: 12px;
+        padding:  0 10px;
+    }
+    
+    .info-area .plan-value {
+        margin: 10px 0 10px 0;
+    }
+
+    .info-area .plan-value img {
+        width: 30px;
+        margin-left: 5px;
+    }
+
+    .info-area .plan-value .value {
+
+        margin-left: 10px;
+        margin-right: 25px;
+       
+    }
+
+    .info-area .plan-value .value h3{
+        font-size: 12px;
+    }
+
+
+
+    .info-area .plan-value span {
+        margin-right: 15px;
+        
+    }
+
+    .info-area .plan-value span a {
+        margin-right: 15px;
+        font-size: 10px;
+    }
+
+    
+
+    .info-area .button-payment-cancel .payment {
+
+        margin: 10px 0 0 0;
+        height: 35px;
+        font-size: 13px;
+        box-shadow: 0px 10px 10px var(--PaleBlue);
+    }
+
+    .info-area .button-payment-cancel .cancel {
+
+        margin-top: 20px;
+        font-size: 12px;
+    }
+}
