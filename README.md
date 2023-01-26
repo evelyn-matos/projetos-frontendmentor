@@ -53,4 +53,15 @@ O desafio é construir um Card Interativo onde ao passar o mause por cima dos nu
 
 <img src="https://media.discordapp.net/attachments/1033494131995054112/1063143207879327784/design-interactive-card.jpg?width=1025&height=418">
 
+<br>
+
+# Desafio 05 - Order Summary Component
+
+Esse desafio vai testar seus conhecimentos em HTML e CSS.
+
+[Acessar Desafio 05](https://evelyn-matos.github.io/projetos-frontendmentor/5-Order-Summary-Component)
+
+
+<img src="./5-Order-Summary-Component/design/desktop-design.jpg">
+
 
